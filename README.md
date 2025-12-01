@@ -1,10 +1,10 @@
-$$
-\begin{aligned}
-  \dot{x} & = \sigma(y - x) \\
-  \dot{y} & = \rho x - y - x z \\
-  \dot{z} & = -\beta z + x y
-\end{aligned}
-$$
+#### **b. PlantUML (diagrammes UML)**
+```markdown
+```plantuml
+@startuml
+Alice -> Bob : Authentification
+Bob --> Alice : Accès accordé
+@enduml
 
 # OC_P6_Terrform
 :rocket: Premier déploiement Terraform  sur AWS

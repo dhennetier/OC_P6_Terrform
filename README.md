@@ -4,7 +4,7 @@
 # Création compte AWS  pour ne pas utiliser le Root User 
   ## Prérequis : Compte AWS 🔑
 - Compte IAM **ocp6-terraform** (sans accès console)
-- Politique : `AmazonEC2FullAccess`
+- Politique restreinte : `AmazonEC2FullAccess`
  ## Créé une clé d accès pour le compte  IAM ocp6-terraform
 - Clé d'accès : `*******************` (à ne **jamais** partager !)  Var env : AWS_ACCESS_KEY_ID
 - clé d'accès secrète ***********************************  (à ne **jamais** partager !)   Var env : AWS_SECRET_ACCESS_KEY
@@ -19,8 +19,8 @@
   AWS_SECRET_ACCESS_KEY=Xxxxxxxx-secret-xxxxxxxxxxxxxxxxxxxxxxxx
 ``` 
 
-:file_folder:# Fichier Terraform main.tf 
- 
+:file_folder:
+# Fichier Terraform main.tf 
   ## Commandes terraform à lancer dans l'ordre : 
  ```bash
   terraform init 
@@ -29,8 +29,8 @@
   teraform show 
 ```
 
-
-:warning: # Suppression des ressources 
+:warning: 
+# Suppression des ressources 
  ```bash
   terraform destroy 
 ```

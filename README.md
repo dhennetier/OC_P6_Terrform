@@ -21,14 +21,14 @@
 
 :file_folder:
 # Fichier Terraform main.tf 
-  ## Commandes terraform à lancer dans l'ordre : 
+## Commandes terraform à lancer dans l'ordre : 
  ```bash
   terraform init 
   terraform plan 
   terraform apply
   teraform show 
 ```
- ## En sortie adresse IP publique de la VM 
+ ## En sortie de terraform apply : adresse IP publique de la VM 
  ```bash
 
     Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
@@ -37,7 +37,8 @@
     **instance_ip = "13.39.111.66"**
 ```
 
-##connexion en ssh sur  Ip publique avec clé ssh awsdeb13.ppk (créée sur AWS ) , compte admin
+#Connexion en ssh sur  Ip publique avec clé ssh awsdeb13.ppk (créée sur AWS ) , compte admin
+
 ### Récupération de l Ip publique une fois connecté
 
  ```bash    

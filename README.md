@@ -18,9 +18,10 @@
   
   AWS_SECRET_ACCESS_KEY=Xxxxxxxx-secret-xxxxxxxxxxxxxxxxxxxxxxxx
 ``` 
-
+:file_folder:
 # Fichier Terraform main.tf 
-  Commandes : 
+ 
+  ## Commandes terraform à lancer dans l'ordre : 
  ```bash
   terraform init 
   terraform plan 

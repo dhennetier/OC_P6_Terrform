@@ -24,5 +24,5 @@
   terraform apply
   teraform show 
 
-# Suppression des ressources 
+:warning: # Suppression des ressources 
   terraform destroy 

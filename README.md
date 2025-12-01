@@ -1,8 +1,8 @@
 @startuml
-main.tf -> Terraform : terraform init
-Terraform -> Terraform : terraform plan
-Terraform -> Terraform : terraform apply
-Terraform -> AWS : Ressource prête
+Daniel -> Terraform : terraform apply
+Terraform -> AWS : Création EC2
+AWS --> Terraform : Ressource prête
+Terraform --> Daniel : Déploiement terminé
 @enduml
 
 # OC_P6_Terrform

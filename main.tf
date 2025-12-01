@@ -21,7 +21,9 @@ provider "aws" {
   region = "eu-west-3"
 }
 
-# Création d'un groupe de sécurité qui autorise le SSH depuis ton IP publique actuelle
+# Création groupe de sécurité  AWS 
+# qui autorise le SSH depuis une IP publique ( ex: routeur internet ,box perso ici )
+
 resource "aws_security_group" "allow_ssh" {
   name        = "allow_ssh_terraform"
   description = "Allow SSH access from my current public IP"

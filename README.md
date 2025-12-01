@@ -1,6 +1,6 @@
 ```mermaid
 graph LR
-    Utilisateur--> Déploiement|Terraform
+Utilisateur--> Déploiement|Terraform
     Terraform-->|Crée|AWS
     AWS-->EC2
     AWS-->RDS

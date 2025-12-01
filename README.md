@@ -5,6 +5,14 @@ AWS --> Terraform : Ressource prête
 Terraform --> Daniel : Déploiement terminé
 @enduml
 
+## Architecture
+```mermaid
+graph LR;
+  Utilisateur-->|Déploiement|Terraform;
+  Terraform-->|Crée|AWS;
+  AWS-->EC2;
+  AWS-->RDS;
+
 # OC_P6_Terrform
 :rocket: Premier déploiement Terraform  sur AWS
 

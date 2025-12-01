@@ -1,18 +1,21 @@
 # OC_P6_Terrform
-Premier déploiement Terraform  sur AWS
+  Premier déploiement Terraform  sur AWS
 
 # Prérequis : Compte AWS 
 
-# Création d un compte AWS  pour ne pas utiliser le Root User 
+# Création compte AWS  pour ne pas utiliser le Root User 
   ocp6-terraform  sans accès console 
        1 seule politique affectée au compte : AmazonEC2FullAccess
-       
    clé accès générée pour ce compte AKIAVX56TA3LHZJB3UGK avec sa secret accèes key 
    
 # Variables environnement à positionner TERRAFOM 
+  
   AWS_DEFAULT_REGION=eu-west-3
+  
   AWS_ACCESS_KEY_ID=AKIAVX56TA3LHZJB3UGK
+  
   AWS_SECRET_ACCESS_KEY=Xxxxxxxx-secret-xxxxxxxxxxxxxxxxxxxxxxxx
+
 
 # Fichier Terraform main.tf 
   Commandes : 

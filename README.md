@@ -37,20 +37,21 @@
     **instance_ip = "13.39.111.66"**
 ```
 
-    ##connexion en ssh sur  Ip publique avec clé ssh awsdeb13.ppk (créée sur AWS ) , compte admin
-    ### Récupération de l Ip publique une fois connecté
+##connexion en ssh sur  Ip publique avec clé ssh awsdeb13.ppk (créée sur AWS ) , compte admin
+### Récupération de l Ip publique une fois connecté
 
  ```bash    
         admin@ip-172-31-43-5:~$ curl http://169.254.169.254/latest/meta-data/public-ipv4
          13.39.111.66
 ```
 
-    ### Récupération de l'Id de l'instance AWS
+  ### Récupération de l'Id de l'instance AWS
 
  ```bash    
         admin@ip-172-31-43-5:~$ curl http://169.254.169.254/latest/meta-data/instance-id
         i-0017a24562b853fb3
 ```
+
 :warning: 
 # Suppression des ressources 
  ```bash

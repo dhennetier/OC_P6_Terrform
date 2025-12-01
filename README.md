@@ -1,10 +1,10 @@
-#### **b. PlantUML (diagrammes UML)**
 ```markdown
-```plantuml
-@startuml
-Alice -> Bob : Authentification
-Bob --> Alice : Accès accordé
-@enduml
+```dot
+digraph G {
+  "Terraform" -> "AWS";
+  "AWS" -> "EC2";
+  "AWS" -> "S3";
+}
 
 # OC_P6_Terrform
 :rocket: Premier déploiement Terraform  sur AWS

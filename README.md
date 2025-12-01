@@ -1,7 +1,5 @@
 # OC_P6_Terrform
-  Premier déploiement Terraform  sur AWS
-
-# Prérequis : Compte AWS 
+:rocket: Premier déploiement Terraform  sur AWS
 
 # Création compte AWS  pour ne pas utiliser le Root User 
   ## Prérequis : Compte AWS 🔑

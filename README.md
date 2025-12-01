@@ -1,10 +1,3 @@
-@startuml
-Daniel -> Terraform : terraform apply
-Terraform -> AWS : Création EC2
-AWS --> Terraform : Ressource prête
-Terraform --> Daniel : Déploiement terminé
-@enduml
-
 ```mermaid
 graph LR
     Utilisateur--> Déploiement|Terraform

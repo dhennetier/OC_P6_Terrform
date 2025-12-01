@@ -13,9 +13,7 @@
 # Variables environnement à positionner pour TERRAFOM 
  ```bash
   AWS_DEFAULT_REGION=eu-west-3
-  
   AWS_ACCESS_KEY_ID=*******************
-  
   AWS_SECRET_ACCESS_KEY=Xxxxxxxx-secret-xxxxxxxxxxxxxxxxxxxxxxxx
 ``` 
 
@@ -34,10 +32,10 @@
     Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
     Outputs:
 
-    **instance_ip = "13.39.111.66"**
+    instance_ip = "13.39.111.66"
 ```
 
-#Connexion en ssh sur  Ip publique avec clé ssh awsdeb13.ppk (créée sur AWS ) , compte admin
+# Connexion en ssh sur  Ip publique avec clé ssh awsdeb13.ppk (créée sur AWS ) , compte admin
 
 ### Récupération de l Ip publique une fois connecté
 

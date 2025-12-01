@@ -13,8 +13,8 @@
 #         pour mon cas , seule ip public de ma box est autorisé en ssh vers VM
 # * Création d une VM qui en sortie du apply donne IP publique
 #         connexion ssh putty , 
-#         pc sur mon ip publique , 
-#         clé ssh ajoutée dans la config putty
+#         pc sort sur internet via mon ip publique(box) , 
+#         clé ssh awsdeb13.ppk ajoutée dans la config putty
 # --------------------------------------------------------------------------------
 
 provider "aws" {

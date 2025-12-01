@@ -1,11 +1,9 @@
-#### **c. Graphviz (graphes)**
-```markdown
-```dot
-digraph G {
-  "Terraform" -> "AWS";
-  "AWS" -> "EC2";
-  "AWS" -> "S3";
-}
+@startuml
+Alice -> Terraform : terraform apply
+Terraform -> AWS : Création EC2
+AWS --> Terraform : Ressource prête
+Terraform --> Alice : Déploiement terminé
+@enduml
 
 # OC_P6_Terrform
 :rocket: Premier déploiement Terraform  sur AWS

@@ -1,5 +1,9 @@
 $$
-\int_a^b f(x) \,dx = F(b) - F(a)
+\begin{aligned}
+  \dot{x} & = \sigma(y - x) \\
+  \dot{y} & = \rho x - y - x z \\
+  \dot{z} & = -\beta z + x y
+\end{aligned}
 $$
 
 # OC_P6_Terrform

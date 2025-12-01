@@ -27,5 +27,8 @@
   teraform show 
 ```
 
-:warning: # Suppression des ressources 
+:warning: 
+# Suppression des ressources 
+ ```bash
   terraform destroy 
+```

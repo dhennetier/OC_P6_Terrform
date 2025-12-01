@@ -5,15 +5,16 @@
   ## Prérequis : Compte AWS 🔑
 - Compte IAM **ocp6-terraform** (sans accès console)
 - Politique : `AmazonEC2FullAccess`
-- Clé d'accès : `*******************` (à ne **jamais** partager !)
-- clé d'accès secrète ***********************************  (à ne **jamais** partager !)  
+ ## Créé une clé d accès pour le compte  IAM ocp6-terraform
+- Clé d'accès : `*******************` (à ne **jamais** partager !)  Var env : AWS_ACCESS_KEY_ID
+- clé d'accès secrète ***********************************  (à ne **jamais** partager !)   Var env : AWS_SECRET_ACCESS_KEY
 
 
 # Variables environnement à positionner TERRAFOM 
  ```bash
   AWS_DEFAULT_REGION=eu-west-3
   
-  AWS_ACCESS_KEY_ID=AKIAVX56TA3LHZJB3UGK
+  AWS_ACCESS_KEY_ID=*******************
   
   AWS_SECRET_ACCESS_KEY=Xxxxxxxx-secret-xxxxxxxxxxxxxxxxxxxxxxxx
 ``` 

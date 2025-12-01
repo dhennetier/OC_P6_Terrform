@@ -1,3 +1,7 @@
+$$
+\int_a^b f(x) \,dx = F(b) - F(a)
+$$
+
 # OC_P6_Terrform
 :rocket: Premier déploiement Terraform  sur AWS
 

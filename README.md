@@ -6,11 +6,11 @@ Terraform --> Daniel : Déploiement terminé
 @enduml
 
 ```mermaid
-graph LR;
-    Utilisateur--> Déploiement|Terraform;
-    Terraform-->|Crée|AWS;
-    AWS-->EC2;
-    AWS-->RDS;
+graph LR
+    Utilisateur--> Déploiement|Terraform
+    Terraform-->|Crée|AWS
+    AWS-->EC2
+    AWS-->RDS
 ```
 
 # OC_P6_Terrform

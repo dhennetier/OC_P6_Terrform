@@ -10,7 +10,7 @@
 - clé d'accès secrète ***********************************  (à ne **jamais** partager !)   Var env : AWS_SECRET_ACCESS_KEY
 
 
-# Variables environnement à positionner TERRAFOM 
+# Variables environnement à positionner pour TERRAFOM 
  ```bash
   AWS_DEFAULT_REGION=eu-west-3
   
@@ -27,6 +27,14 @@
   terraform plan 
   terraform apply
   teraform show 
+```
+ ## En sortie adresse IP publique de la VM 
+ ```bash
+
+    Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
+    Outputs:
+
+    instance_ip = "13.39.111.66"
 ```
 
 :warning: 

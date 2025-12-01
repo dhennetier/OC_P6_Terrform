@@ -9,10 +9,10 @@
 - Politique : `AmazonEC2FullAccess`
 - Clé d'accès : `*******************` (à ne **jamais** partager !)
 - clé d'accès secrète ***********************************  (à ne **jamais** partager !)  
-   
+
+
 # Variables environnement à positionner TERRAFOM 
  ```bash
-# 
   AWS_DEFAULT_REGION=eu-west-3
   
   AWS_ACCESS_KEY_ID=AKIAVX56TA3LHZJB3UGK

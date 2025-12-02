@@ -22,6 +22,7 @@
 # Fichier Terraform main.tf 
 ## Commandes terraform à lancer dans l'ordre : 
  ```bash
+  terraform validate #syntaxe fichier tf
   terraform init 
   terraform plan 
   terraform apply

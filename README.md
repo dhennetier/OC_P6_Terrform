@@ -52,7 +52,23 @@
         admin@ip-172-31-43-5:~$ curl http://169.254.169.254/latest/meta-data/instance-id
         i-0017a24562b853fb3
 ```
+# Remarque : Obtenir une adresse IP fixe (ne change pas au reboot)
+## Vocabulaire AWS : une adresse IP élastique (eip) 
+### Dans le fichier main.tf 
+ ```bash
+resource "aws_eip" "my_eip" {
+  instance = aws_instance.my_server.id
+  tags = {
+    Name = "OpenClassrooms-P6-EIP"
+  }
+}
 
+output "public_ip" {
+  value = aws_eip.my_eip.public_ip
+}
+
+
+ ```
 :warning: 
 # Suppression des ressources 
  ```bash

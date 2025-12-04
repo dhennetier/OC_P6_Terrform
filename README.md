@@ -70,7 +70,9 @@ output "public_ip" {
 }
  ```
 :fast_forward: Remarque : 
-- Pour l exercice 2 , une eip sera utilisé pour ajouter un enregistrement DNS sur mon domaine openmindx.fr 
+- Pour l exercice 2 , une eip sera utilisée pour ajouter un enregistrement DNS sur mon domaine openmindx.fr 
+
+
 
 :warning: :warning: :warning: 
 # Suppression des ressources 

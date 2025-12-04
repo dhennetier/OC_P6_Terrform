@@ -66,9 +66,8 @@ resource "aws_eip" "my_eip" {
 output "public_ip" {
   value = aws_eip.my_eip.public_ip
 }
-
-
  ```
+:fast_forward:R emarque : Pour l exercice 2 , une eip sera utilisé pour ajouter un enregistrement DNS sur mon domaine openmindx.fr 
 :warning: 
 # Suppression des ressources 
  ```bash

@@ -7,8 +7,10 @@
 - Compte IAM **ocp6-terraform** (sans accès console)
 - Politique restreinte : `AmazonEC2FullAccess`
  ## Créé une clé d accès pour le compte  IAM ocp6-terraform
-- Clé d'accès : `*******************` (à ne **jamais** partager !)  Var env : AWS_ACCESS_KEY_ID
-- clé d'accès secrète ***********************************  (à ne **jamais** partager !)   Var env : AWS_SECRET_ACCESS_KEY
+- Clé d'accès : `*******************` (à ne **jamais** partager !)
+  - Variable environnement à déclarer: AWS_ACCESS_KEY_ID
+- clé d'accès secrète ***********************************  (à ne **jamais** partager !)
+  - Variable environnement à déclarer: AWS_SECRET_ACCESS_KEY
 
 
 # Variables environnement à positionner pour TERRAFOM 
